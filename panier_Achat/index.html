@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'Achat</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="shopping-cart">
+        <h1>Mon Panier</h1>
+        <div id="cart-items">
+            <div class="cart-item">
+                <span class="item-name">Article 1</span>
+                <span class="item-price">1000 f cfa</span>
+                <button class="like-btn" onclick="toggleLike(this)">❤️</button>
+                <div class="quantity-control">
+                    <button class="quantity-btn" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+                <button class="remove-btn" onclick="removeItem(this)">Supprimer</button>
+            </div>
+            <div class="cart-item">
+                <span class="item-name">Article 2</span>
+                <span class="item-price">1500 f cfa</span>
+                <button class="like-btn" onclick="toggleLike(this)">❤️</button>
+                <div class="quantity-control">
+                    <button class="quantity-btn" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+                <button class="remove-btn" onclick="removeItem(this)">Supprimer</button>
+            </div>
+        </div>
+        <h2>Total : <span id="total-price">2500 f cfa</span></h2>
+    </div>
+    <script src="./js/scrpt.js"></script>
+</body>
+</html>
