@@ -41,7 +41,7 @@
                 <h2 class="text-center mb-4">À propos de moi</h2>
                 <div class="about-content">
                     <div class="about-img">
-                        <img src="img/profil.png" alt="Photo de profil" class="img-fluid rounded-circle mb-3">
+                        <img src="img/profill.png" alt="Photo de profil" class="img-fluid rounded-circle mb-3">
                     </div>
                     <div class="about-text">
                         <h3>Biographie</h3>
